@@ -1,14 +1,14 @@
 import os
 
 class Var(object):
-    APP_ID = int(os.environ.get("APP_ID", 6))
+    APP_ID = int(os.environ.get("21118776", 6))
     # 6 is a placeholder
-    API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = os.environ.get("75dfd5f9597b1941f1c511ed258f0bc4", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", None)
     LOGGER = True
-    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+    GITHUB_ACCESS_TOKEN = os.environ.get("5773256870:AAHUZhLPTllaOrbTAeIddLwGNYA_ekvOHs0", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     SUDO_USERS = os.environ.get("SUDO_USERS", "1492186775")
